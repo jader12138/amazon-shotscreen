@@ -4,13 +4,13 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 # ========== 只改这里 ==========
-URL = "https://read.amazon.co.jp/?asin=B0F1RB8N2X"
-TOTAL_PAGE = 191
+URL = "https://"
+TOTAL_PAGE = 000
 # ==============================
 
-SAVE_DIR = "美貌と欲望　姫岡しあ"
-WAIT_AFTER_PAGE = 10   # 翻页后等12秒
-WAIT_BEFORE_NEXT = 1   # 截图后等2秒
+SAVE_DIR = "写真"
+WAIT_AFTER_PAGE = 10   # 翻页后等10秒
+WAIT_BEFORE_NEXT = 1   # 截图后等1秒
 
 os.makedirs(SAVE_DIR, exist_ok=True)
 
